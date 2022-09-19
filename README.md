@@ -5,7 +5,8 @@ Windows 10 is my favourite version of Windows. I created a modified version of m
 ## Inspiration
 
 After months of practicing Javascript, I will build four new projects and this is the first.
-It is the landing page of the laptop. The first interface when i boot my device.
+I start from the landing page of the laptop up to three other Windows page . This page is the first User interface when i boot my device. 
+Hopefully, the final 4 would include a framework. Bootsrap or Vue Js👀
 
 [Demo Image](/images/Windows%2010%20Start%20page.png)
 
