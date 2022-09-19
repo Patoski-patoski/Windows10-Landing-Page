@@ -1,6 +1,6 @@
 # Windows 10 Landing-Page
 
-Windows 10 is my favourite version of indows. I created a modified version of my laptop landing page.
+Windows 10 is my favourite version of Windows. I created a modified version of my laptop landing page.
 
 ## Inspiration
 
@@ -9,14 +9,7 @@ It is the landing page of the laptop. The first interface when i boot my device.
 
 [Demo Image](/images/Windows%2010%20Start%20page.png)
 
-[image](Windows 10 Start page.png)
-
-Windows 10 Start page.png
-
-
 
 ## Tools
 
-Vanilla JavaScript
-HTML5
-CSS3
+Vanilla JavaScript | HTML5 | CSS3
