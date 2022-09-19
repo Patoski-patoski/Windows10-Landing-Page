@@ -9,6 +9,12 @@ It is the landing page of the laptop. The first interface when i boot my device.
 
 [Demo Image](/images/Windows%2010%20Start%20page.png)
 
+[image](Windows 10 Start page.png)
+
+Windows 10 Start page.png
+
+
+
 ## Tools
 
 Vanilla JavaScript
