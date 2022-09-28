@@ -19,6 +19,11 @@ body {
     overflow: hidden;
 }   
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .container{
      position: absolute;
      top: 56%;
@@ -39,6 +44,16 @@ body {
 #black{
     border: 1px solid #fff;
     padding: 0.5em;
+}
+
+#button{
+    padding: 1em;
+    border: none;
+    background-color: brown;
+    color: #fff; 
+    display: flex;
+    margin-left: 25em;
+    margin-top: -24em; 
 }
 
 
@@ -64,3 +79,152 @@ body {
 .fa-solid{
     font-size: 110%; 
 }
+
+
+/* style for the password page */
+#password-page-body{
+    background-image: none;
+}
+
+#password-page-body::after{
+        content:"";
+        background: url(https://bit.ly/3BmKs0U);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        opacity: 0.8;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+
+      }
+
+      #password-page-main{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10rem;
+        margin-left: 33rem;
+        gap: 1.5rem;
+      }
+
+      #me{
+        border-radius: 50%;
+        width: 15vw; 
+ 
+      }
+
+      #pc-name{
+        font-size: 2.5rem;
+        text-transform:uppercase ;
+        margin-left: 2.0rem;     
+      }
+
+
+      input[type=password]{
+        width: 100%;
+        padding: 0.625rem 1.5rem; 
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #201616;
+        outline: none;
+      }
+
+      input[type=password]:focus{
+        background-color: #ccc;
+        color: #1b1818;
+      }
+      
+      
+       ::placeholder {
+        color: #ccc;
+        text-transform: capitalize;
+        text-align: left;
+        padding: 1rem 5.5rem ; 
+
+      } 
+
+       .icon{
+        position: absolute;
+        margin-left: 14rem;
+        margin-top: 1.2rem; 
+        color: #ccc;
+      }
+
+      .icon1{
+        position: absolute;
+        color: #fff;
+        background-color: #414107;
+        padding: 0.6rem;
+        margin:0.66rem 1rem 0 15.6rem;
+        border-right: 1px solid #ccc;
+        transition: all 1s;
+
+        
+      }
+
+      .icon1:hover{
+        opacity: 0.4;  
+      }
+
+      #pc{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid blue;
+        justify-content: center;
+        align-content: center;
+
+      }
+
+      #pc h3{
+       
+        justify-content: flex-end;
+        border: 3px red solid;
+      }
+/*
+      #dropdown{
+        position: absolute; 
+        left: 74%;
+        width: 25%; 
+        height: 80%;
+        background-color: #1b1818;
+        padding: 2rem;
+        top: 8%;
+        
+      }
+   
+
+      #div-globe{
+        background-color: #494e52;
+        padding: 2rem 0.325rem 2.55rem 0;  
+        width: 30%; 
+        margin-top: 27rem;  
+        margin-left: -1rem;  
+      }
+
+      #div-airplane{
+        background-color: red;
+        padding: 2rem 0.325rem 2.55rem 0;  
+        border: 5px solid green;
+        width: 30%;
+        margin-top: -8rem;  
+        margin-left: 7rem;   
+      }
+
+      
+
+      #div-globe:hover,#div-globe:focus{
+        background-color: #5851b9;    
+      } */
+
