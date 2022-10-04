@@ -31,6 +31,7 @@ a{
 }
 
 
+
 .f11 p{
     font-size: 1em;
     background-color: #1b1818;
@@ -46,13 +47,13 @@ a{
     padding: 0.5em;
 }
 
-#button{
+.button{
     padding: 1em;
     border: none;
     background-color: brown;
     color: #fff; 
     display: flex;
-    margin-left: 25em;
+    margin-left: 94em;
     margin-top: -24em; 
 }
 
@@ -78,6 +79,13 @@ a{
 
 .fa-solid{
     font-size: 110%; 
+}
+
+
+.weather{
+  position: relative;
+  margin-top: 18em;
+
 }
 
 
@@ -110,7 +118,7 @@ a{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 10rem;
+        margin-top: 08rem;
         margin-left: 33rem;
         gap: 1.5rem;
       }
@@ -178,22 +186,45 @@ a{
       }
 
       #pc{
-        position: relative;
+        position: absolute;
         display: flex;
         flex-direction: column;
-        border: 2px solid blue;
-        justify-content: center;
-        align-content: center;
+        margin-top: 33em;
 
       }
 
-      #pc h3{
+       #pc h3{
        
         justify-content: flex-end;
-        border: 3px red solid;
+        font-size: smaller;
+        padding: 0.1rem 0.4rem 1rem 1.5rem;  
+        margin-left: 0.625rem;
+        cursor: progress;
+        transition: step-start;
+        text-align: center;
       }
-/*
-      #dropdown{
+
+      #pc h3:first-child{ 
+        background-color: #292604; 
+          
+      }
+
+      #accountMe{
+        position: relative;
+        border-radius: 50%;
+        width: 3vw;
+        top: 0.65rem;
+      
+
+      }
+
+      #pc h3:hover{
+        background-color: #a092923d; 
+        transition: step-start;
+        
+      }
+ 
+      /* #dropdown{
         position: absolute; 
         left: 74%;
         width: 25%; 
@@ -227,4 +258,4 @@ a{
       #div-globe:hover,#div-globe:focus{
         background-color: #5851b9;    
       } */
-
+ 

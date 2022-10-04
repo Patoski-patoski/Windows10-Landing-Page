@@ -1,5 +1,3 @@
-
-
 var myInterval = setInterval(() => {
     var time = new Date().toLocaleTimeString()
     document.getElementById('time').innerHTML = time; 
@@ -114,5 +112,16 @@ hide = () =>{
    toggle.style.display = 'none'
 } 
 
+next =() =>{
+    var list = document.querySelector('button')
+    var blink = setInterval (function() {
+        list.remove()
+        
+}, 4000);
 
+}
+
+
+
+ 
  
